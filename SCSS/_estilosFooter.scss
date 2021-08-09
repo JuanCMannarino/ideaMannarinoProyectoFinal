@@ -1,0 +1,140 @@
+$base-font-size: 1.3rem;
+$title-header: 1.5rem;
+$background-school: #dad6d6;
+$background-complement: rgb(16, 10, 108);
+
+.footer {
+  margin-bottom: 0%;
+  .footer__div {
+    border: none;
+    width: 100vw;
+    text-align: center;
+
+    .footer__div--span {
+      color: $background-school;
+    }
+  }
+  .footer__nav--style {
+    border-bottom-style: ridge;
+    width: 100vw;
+    position: relative;
+    z-index: 20;
+    margin-left: 0%;
+    h3 {
+      font-size: 2rem;
+      margin: 0%;
+      letter-spacing: 4px;
+      font-weight: bold;
+    }
+    li.foot {
+      margin-left: 8%;
+    }
+    li.location {
+      list-style-image: url(../assets/iconos/locacion.png);
+    }
+
+    li.mail {
+      list-style-image: url(../assets/iconos/mail.png);
+    }
+    li.phone {
+      list-style-image: url(../assets/iconos/whatsapp.png);
+    }
+    li.foot--redes{
+      display: flex;
+      flex-direction: row;
+      margin: 0% 2% 0% -1%;
+      a.imgRedes {
+        margin: 0%;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 411px) {
+  .footer {
+    .footer__nav--style {
+      display: flex;
+      flex-direction: row;
+
+      h3 {
+        text-align: center;
+        margin-right: 5%;
+      }
+      li.foot {
+        margin-left: 8%;
+        font-size: 1rem;
+        padding-top: 1%;
+      }
+      li.foot--redes{
+        display: flex;
+        flex-direction: row;
+        margin: 0% 2% 0% -1%;
+        a.imgRedes {
+          margin: 0%;
+        }
+      }
+    }
+    .footer__div {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .footer {
+    .footer__nav--style {
+      flex-direction: column;
+      align-items: center;
+      h3 {
+        text-align: center;
+        margin: 0%;
+      }
+      li.foot {
+        margin-left: 15%;
+        font-size: 0.9rem;
+        padding-top: 5%;
+     a{
+          width: 90vw ;
+        }
+      }
+      li.foot--redes{
+        display: flex;
+        flex-direction: row;
+        margin: 0% 2% 0% -1%;
+        a.imgRedes {
+          margin: 0%;
+        }
+      }
+    }
+    .footer__div {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 250px) {
+  .footer {
+    .footer__nav--style {
+      li.foot {
+        margin-left: 25%;
+        font-size: 0.6rem;
+        padding-top: 5%;
+      }
+      // li.foot--redesInstagram {
+      //   margin: 0% 2% 0% -1%;
+      //   a.imgRedes {
+      //     margin: -5% 0% 0% 10%;
+      //   }
+      // }
+      li.foot--redes{
+        display: flex;
+        flex-direction: row;
+        margin: 0% 2% 0% -1%;
+        a.imgRedes {
+          margin: 0%;
+        }
+      }
+    }
+  }
+}
+/*# sourceMappingURL=estilosFooter.css.map */

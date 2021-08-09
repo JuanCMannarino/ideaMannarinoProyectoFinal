@@ -1,0 +1,404 @@
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+  body .seccionPrincipal img.imgLarga {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: auto;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #100a6c;
+  }
+  body .seccionPrincipal div.liga {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 5%;
+    margin-top: -21%;
+    padding-left: 3%;
+  }
+  body .seccionPrincipal div.liga h1 {
+    width: 100vw;
+    margin-top: 3.5rem;
+    padding-left: 3.3rem;
+    color: #f8f9fa;
+    font-size: 2.3rem;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  body .seccionPrincipal div.liga p.Ppal {
+    color: #f8f9fa;
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-right: 5%;
+    width: 100vw;
+    border: none;
+  }
+  body .seccionPrincipal .articulo__escuela {
+    margin-top: 2%;
+  }
+  body .seccionPrincipal .articulo__escuela div.escuela--texto h2.titulos {
+    word-spacing: 5px;
+    letter-spacing: 7px;
+    text-align: center;
+    text-shadow: 0px 0px 2px #100a6c;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body .seccionPrincipal .articulo__escuela div.escuela--texto p.Ppal {
+    padding: 5%;
+    margin-top: -5%;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.6);
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body div.seccionEscuela {
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub {
+    margin-bottom: -1%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: baseline !important;
+        -ms-flex-align: baseline !important;
+            align-items: baseline !important;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub div.seccionEscuela__col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-right: none;
+    width: 96vw;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub div.seccionEscuela__col .seccionEscuela__col--img {
+    width: 30%;
+    height: 30%;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub div.seccionEscuela__col .seccionEscuela__col--span {
+    font-size: 1rem;
+    border-top: solid 3px #100a6c;
+    text-align: start;
+    padding: 2%;
+    margin-left: 2%;
+  }
+  body div.seccionEscuela a.botonReg {
+    border: solid 1px #100a6c;
+    border-radius: 8%;
+    text-decoration: none;
+    padding: 2px 12px 2px 12px;
+    font-size: 1rem;
+    margin-left: 41.5%;
+    margin-top: 5%;
+    color: #100a6c;
+    display: inline-block;
+    margin-bottom: 3%;
+    -webkit-transition: color, 1s;
+    transition: color, 1s;
+  }
+  body div.seccionEscuela a.botonReg:hover {
+    border-radius: 8%;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    font-size: 1.1rem;
+    margin-left: 41.5%;
+    background-color: #100a6c;
+    color: #dad6d6;
+    -webkit-transition: color, 1s;
+    transition: color, 1s;
+  }
+  body div.seccionEscuela div.banner {
+    background-color: #100a6c;
+    width: 100vw;
+    height: 10rem;
+    text-align: center;
+    margin: 2% 0% 2% -2%;
+  }
+  body div.seccionEscuela div.banner .showcase-img {
+    display: none;
+  }
+  body div.seccionEscuela div.banner .showcase-text {
+    color: #f8f9fa;
+    width: 50vw;
+    margin-left: 25%;
+  }
+  body .seccionClientes {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(40%, transparent), to(#dad6d6));
+    background-image: linear-gradient(to top, transparent 40%, #dad6d6);
+    margin-bottom: 10%;
+  }
+  body .seccionClientes .articuloClientes {
+    margin-top: -1%;
+  }
+  body .seccionClientes .articuloClientes .articuloClientes--title {
+    margin: 3% 0% 0% 0%;
+    padding: 1rem;
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    text-shadow: 0px 0px 2px #100a6c;
+  }
+  body .seccionClientes .articuloClientes .articuloClientes__divisor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .seccionClientes .articuloClientes .articuloClientes__divisor .articuloClientes__divisor--img {
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    width: 15%;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 411px) {
+  body .seccionPrincipal img.imgLarga {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: auto;
+    border-bottom: solid 3px #100a6c;
+  }
+  body .seccionPrincipal div.liga {
+    margin-bottom: 5%;
+  }
+  body .seccionPrincipal div.liga h1.seccionPrincipal__liga--titulo {
+    width: 100vw;
+    margin-top: -2.5rem;
+    padding-left: 1rem;
+    color: #f8f9fa;
+    font-size: 1.5rem;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  body .seccionPrincipal div.liga p.Ppal {
+    color: rgba(0, 0, 0, 0.6);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #100a6c;
+    font-size: 1rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 2%;
+    width: 100vw;
+  }
+  body .seccionPrincipal article.articulo__escuela div.escuela--texto h2.titulos {
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    text-align: center;
+    text-shadow: 0px 0px 2px #100a6c;
+  }
+  body .seccionPrincipal article.articulo__escuela div.escuela--texto p.Ppal {
+    padding: 2%;
+    font-size: 1.2rem;
+    word-spacing: 0;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  body div.seccionEscuela {
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub {
+    margin-bottom: -1%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 5%;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub div.seccionEscuela__col {
+    border-right: none;
+    width: 96vw;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub div.seccionEscuela__col .seccionEscuela__col--img {
+    width: 5rem;
+    height: 5rem;
+    margin: -2% -15% 8% 4%;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub div.seccionEscuela__col .seccionEscuela__col--span {
+    margin: -15% 15% 9% 30%;
+    font-size: 1rem;
+    border-top: solid 3px #100a6c;
+  }
+  body div.seccionEscuela a.botonReg {
+    border: solid 1px #100a6c;
+    border-radius: 8%;
+    text-decoration: none;
+    padding: 2px 12px 2px 12px;
+    font-size: 1rem;
+    margin-left: 41.5%;
+    color: #100a6c;
+    -webkit-transition: color, 1s;
+    transition: color, 1s;
+  }
+  body div.seccionEscuela a.botonReg:hover {
+    border-radius: 8%;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    font-size: 1.1rem;
+    margin-left: 41.5%;
+    background-color: #100a6c;
+    color: #dad6d6;
+    -webkit-transition: color, 1s;
+    transition: color, 1s;
+  }
+  body div.seccionEscuela div.banner {
+    background-color: #100a6c;
+    width: 100vw;
+    height: 10rem;
+    text-align: center;
+    margin: 2% 0% 2% -2%;
+  }
+  body div.seccionEscuela div.banner .showcase-img {
+    display: none;
+  }
+  body div.seccionEscuela div.banner .showcase-text {
+    font-style: italic;
+    color: #f8f9fa;
+  }
+  body .seccionClientes {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  body .seccionPrincipal img.imgLarga {
+    margin-top: 0%;
+    border-bottom: solid 3px #100a6c;
+  }
+  body .seccionPrincipal div.liga h1.seccionPrincipal__liga--titulo {
+    width: 100vw;
+    margin-top: -3rem;
+    padding-left: 2%;
+    color: #f8f9fa;
+    font-size: 1.2rem;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  body .seccionPrincipal div.liga p.Ppal {
+    color: rgba(0, 0, 0, 0.6);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #100a6c;
+    font-size: 1rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 2% 8% 0% 1%;
+  }
+  body .seccionPrincipal article.articulo__escuela div.escuela--texto {
+    width: 95vw;
+    margin-left: 2%;
+    margin-top: 3%;
+  }
+  body .seccionPrincipal article.articulo__escuela div.escuela--texto h2.titulos {
+    font-size: 1.4rem;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    text-align: left;
+    text-shadow: 0px 0px 2px #100a6c;
+  }
+  body .seccionPrincipal article.articulo__escuela div.escuela--texto p.Ppal {
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 2%;
+    font-size: 0.8rem;
+    word-spacing: 0;
+    letter-spacing: 2px;
+    text-align: justify;
+  }
+  body div.seccionEscuela {
+    margin-bottom: 0;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub {
+    margin-bottom: -1%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 5%;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub div.seccionEscuela__col {
+    border-right: none;
+    width: 96vw;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub div.seccionEscuela__col .seccionEscuela__col--img {
+    width: 2rem;
+    height: 2rem;
+    margin: -5% -15% 0% 2%;
+  }
+  body div.seccionEscuela div.seccionEscuela__sub div.seccionEscuela__col .seccionEscuela__col--span {
+    margin: -5% 15% 10% 25%;
+    font-size: 1rem;
+    border-top: solid 3px #100a6c;
+  }
+  body div.seccionEscuela a.botonReg {
+    border: solid 1px #100a6c;
+    border-radius: 8%;
+    text-decoration: none;
+    padding: 2px 12px 2px 12px;
+    font-size: 1rem;
+    margin-left: 41.5%;
+    color: #100a6c;
+    -webkit-transition: color, 1s;
+    transition: color, 1s;
+  }
+  body div.seccionEscuela a.botonReg:hover {
+    border-radius: 8%;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    font-size: 1.1rem;
+    margin-left: 41.5%;
+    background-color: #100a6c;
+    color: #dad6d6;
+    -webkit-transition: color, 1s;
+    transition: color, 1s;
+  }
+  body div.seccionEscuela div.banner {
+    background-color: #100a6c;
+    width: 100vw;
+    height: 10rem;
+    text-align: center;
+    margin: 2% 0% 2% -5%;
+  }
+  body div.seccionEscuela div.banner .showcase-img {
+    display: none;
+  }
+  body div.seccionEscuela div.banner .showcase-text {
+    padding: 2%;
+    font-size: 0.8rem;
+    color: #f8f9fa;
+  }
+  body .seccionClientes {
+    display: none;
+  }
+}
+/*# sourceMappingURL=mediaIndex.css.map */

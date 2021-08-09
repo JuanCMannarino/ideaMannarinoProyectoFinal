@@ -1,0 +1,228 @@
+$title-font-size: 3.2rem;
+$parrafo-font-size: 1.4rem;
+$background-school: #dad6d6;
+$body-color: #f8f9fa;
+$shadows: 0px 0px 2px rgb(16, 10, 108);
+$colorSegundo: rgb(16, 10, 108);
+$text-color: rgba(0, 0, 0, 0.5);
+$text-color-complement: #f8f9fa;
+
+body{
+  font-family: "Poppins", "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+  .seccionPrincipal {
+    .imgPpal {
+      grid-row: 1 / span 1;
+      grid-column: 2 / span 1;
+      justify-content: stretch;
+      margin-top: 0%;
+      width: 100vw;
+    }
+    div {
+      width: 100vw;
+      height: auto;
+    }
+    .articuloEscuela {
+      justify-content: stretch;
+      background-color: $body-color;
+      border-top-style: solid;
+      border-top-width: 1rem;
+      border-top-color: lightcyan;
+      background-image: linear-gradient(
+        to top,
+        transparent 45%,
+        $background-school
+      );
+      h1 {
+        width: 50vw;
+        color: black;
+        font-size: 2.1rem;
+        word-spacing: 5px;
+        letter-spacing: 6.5px;
+        text-align: left;
+        margin-left: 2rem;
+        font-weight: bold;
+        padding: 2rem;
+        border-top: solid 3px $colorSegundo;
+        text-shadow: $shadows;
+      }
+      p {
+        align-items: center;
+        font-size: $parrafo-font-size - 0.15rem;
+        text-align: left;
+        margin: -1rem 10% 2rem 10%;
+      }
+    }
+    .articuloCapacitacion {
+      display: flex;
+      flex-direction: column;
+      justify-content: stretch;
+      margin-bottom: 5%;
+      p.articuloCapacitacion__parrafo {
+        text-align: justify;
+        width: 90vw;
+        align-self: start;
+        margin-left: 3%;
+        font-size: $parrafo-font-size;
+        margin-bottom: 5%;
+      }
+      h2.articuloCapacitacion__titulo {
+        width: 90vw;
+        color: black;
+        font-size: $title-font-size - 1rem;
+        word-spacing: 5px;
+        letter-spacing: 6.5px;
+        text-align: left;
+        margin-left: 2rem;
+        font-weight: bold;
+        padding: 2rem;
+        border-top: solid 1px $colorSegundo;
+        text-shadow: $shadows;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 401px) {
+  .seccionPrincipal {
+    .imgPpal {
+      grid-row: 1 / span 1;
+      grid-column: 2 / span 1;
+      justify-content: stretch;
+      margin-top: 0%;
+      width: 100vw;
+    }
+    div {
+      width: 100vw;
+      height: auto;
+    }
+    .articuloEscuela {
+      justify-content: stretch;
+      background-color: $body-color;
+      border-top-style: solid;
+      border-top-width: 1rem;
+      border-top-color: lightcyan;
+      h1 {
+        border-top: solid 3px $colorSegundo;
+        text-align: center;
+        font-size: $title-font-size - 1rem;
+        padding: 2%;
+        font-weight: 500;
+        letter-spacing: 4px;
+        text-shadow: $shadows;
+      }
+      p {
+        align-items: center;
+        font-size: $parrafo-font-size;
+        text-align: justify;
+        margin: 0rem 7% 2rem 7%;
+      }
+    }
+    .articuloCapacitacion {
+      display: flex;
+      flex-direction: column;
+      justify-content: stretch;
+      margin-bottom: 5%;
+      p.articuloCapacitacion__parrafo {
+        text-align: justify;
+        width: 90vw;
+        align-self: start;
+        margin-left: 5%;
+        font-size: $parrafo-font-size;
+        margin: -5% 5% 5% 5%;
+        padding: 2%;
+      }
+      h2.articuloCapacitacion__titulo {
+        width: 90vw;
+        color: $text-color;
+        font-size: 1.6rem;
+        word-spacing: 5px;
+        letter-spacing: 6.5px;
+        text-align: left;
+        margin-left: 2rem;
+        font-weight: bold;
+        padding: 1rem;
+        border-top: solid 1px $colorSegundo;
+        text-shadow: $shadows;
+      }
+      div.carousel {
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 400px) and (min-width: 151px) {
+  .seccionPrincipal {
+    .imgPpal {
+      grid-row: 1 / span 1;
+      grid-column: 2 / span 1;
+      justify-content: stretch;
+      margin-top: 0%;
+      width: 100vw;
+    }
+    div {
+      width: 96vw;
+      height: auto;
+    }
+    .articuloEscuela {
+      justify-content: stretch;
+      background-color: $body-color;
+      border-top-style: solid;
+      border-top-width: 1rem;
+      border-top-color: lightcyan;
+      h1 {
+        width: 50vw;
+        color: $text-color;
+        font-size: $text-color - 1.6rem;
+        word-spacing: 5px;
+        letter-spacing: 6.5px;
+        text-align: left;
+        margin-left: 5%;
+        font-weight: bold;
+        padding: 5%;
+        border-top: solid 3px $colorSegundo;
+        text-shadow: $shadows;
+      }
+      p {
+        align-items: center;
+        font-size: 0.8rem;
+        text-align: justify;
+        margin: -1rem 7% 2rem 7%;
+      }
+
+    }
+    .articuloCapacitacion {
+      display: flex;
+      flex-direction: column;
+      justify-content: stretch;
+      margin-bottom: 5%;
+      p.articuloCapacitacion__parrafo {
+        text-align: justify;
+        width: 90vw;
+        align-self: start;
+        margin-left: 5%;
+        font-size: 0.8rem;
+        margin: -5% 5% 5% 5%;
+        padding: 2%;
+      }
+      h2.articuloCapacitacion__titulo {
+        width: 100vw;
+        color: $text-color;
+        font-size: 1.1rem;
+        word-spacing: 5px;
+        letter-spacing: 1.5px;
+        text-align: left;
+        margin-left: 1%;
+        font-weight: bold;
+        padding: 1rem;
+        border-top: solid 1px $colorSegundo;
+        text-shadow: $shadows;
+      }
+      div.carousel {
+        display: none;
+      }
+    }
+  }
+}

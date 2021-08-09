@@ -1,0 +1,258 @@
+$title-font-size: 3.2rem;
+$parrafo-font-size: 1.4rem;
+$background-school: #dad6d6;
+$body-color: #f8f9fa;
+$shadows: 0px 0px 2px rgb(16, 10, 108);
+$colorSegundo: rgb(16, 10, 108);
+$text-color: rgba(0, 0, 0, 0.5);
+$text-color-complement: #f8f9fa;
+
+@import "estilosHeaderCop";
+@import "estilosFooter";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  font-family: "Poppins", "Roboto", sans-serif;
+
+  section.seccionPrincipal {
+    background-color: $colorSegundo;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: stretch;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 0.6%;
+    .seccionPrincipal__articuloHistoria {
+      justify-content: stretch;
+      border-top-style: solid;
+      border-top-width: 3px;
+      border-top-color: lightcyan;
+      border-bottom: solid 3px $body-color;
+      .seccionPrincipal__articuloHistoria--title {
+        width: 50vw;
+        color: $text-color-complement;
+        font-size: $title-font-size;
+        word-spacing: 5px;
+        letter-spacing: 6.5px;
+        text-align: left;
+        margin-left: 2rem;
+        font-weight: bold;
+        padding: 2rem;
+        border-top: solid 3px $colorSegundo;
+        text-shadow: $shadows;
+      }
+      .seccionPrincipal__articuloHistoria--paragraph {
+        color: $text-color-complement;  
+        font-size: $parrafo-font-size - 0.3rem;
+        text-align: justify;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        margin: -1rem 10% 2rem 10%;
+      }
+    }
+    .seccionPrincipal__carrousel {
+      border-top: solid 1rem lightcyan;
+      .logoClientes {
+        .logoClientes__logo {
+          width: 15vw;
+          padding: 5%;
+        }
+      }
+    }
+  }
+  section.testimonials {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-image: linear-gradient(transparent 68%, rgba(0, 0, 0, 0.4));
+    .container {
+      h2 {
+          font-size: $title-font-size - 0.6rem;
+        margin: 1% !important;
+        text-shadow: $shadows;
+        text-align: center;
+      }
+      p {
+        font-size: $parrafo-font-size;
+        text-align: justify;
+        color: $text-color;
+        padding: 2%;
+      }
+      .testimonial__block {
+          justify-content: space-around;
+        .testimonial__block--col {
+          .testimonial-item {
+            img {
+              width: 15rem;
+              height: 15rem;
+            }
+            p{
+                font-size: $parrafo-font-size - 0.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 251px) {
+  body {
+    section.seccionPrincipal {
+        background-color: $colorSegundo;
+        height:auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: stretch;
+        position: relative;
+        z-index: 10;
+        padding-bottom: 0.6%;
+        .seccionPrincipal__articuloHistoria {
+          justify-content: stretch;
+          border-top-style: solid;
+          border-top-width: 3px;
+          border-top-color: lightcyan;
+          border-bottom: solid 3px $body-color;
+          .seccionPrincipal__articuloHistoria--title {
+            width: 85vw;
+            color: #f8f9fa;
+            font-size: 2.1rem;
+            word-spacing: 5px;
+            letter-spacing: 6.5px;
+            text-align: center;
+            font-weight: bold;
+          }
+          .seccionPrincipal__articuloHistoria--paragraph {
+            color: #f8f9fa;
+            font-size: 1.1rem;
+            text-align: justify;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            margin: -1rem 2% 2rem 4%;
+          }
+        }
+        .seccionPrincipal__carrousel {
+            display: none;
+
+        }
+      }
+      section.testimonials {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        background-image: linear-gradient(transparent 68%, rgba(0, 0, 0, 0.4));
+        .container {
+          h2 {
+              font-size: $title-font-size - 0.6rem;
+            margin: 1% !important;
+            text-shadow: $shadows;
+            text-align: center;
+          }
+          p {
+            font-size: $parrafo-font-size;
+            text-align: justify;
+            color: $text-color;
+            padding: 2%;
+          }
+          .testimonial__block {
+              justify-content: center;
+            .testimonial__block--col {
+              .testimonial-item {
+                img {
+                  width: 15rem;
+                  height: 15rem;
+                }
+                p{
+                    font-size: $parrafo-font-size - 0.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}
+
+@media only screen and (max-width: 250px) {
+  body {
+    section.seccionPrincipal {
+        background-color: $colorSegundo;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: stretch;
+        position: relative;
+        z-index: 10;
+        padding-bottom: 0.6%;
+        .seccionPrincipal__articuloHistoria {
+          justify-content: stretch;
+          border-top-style: solid;
+          border-top-width: 3px;
+          border-top-color: lightcyan;
+          border-bottom: solid 3px $body-color;
+          .seccionPrincipal__articuloHistoria--title {
+            width: 80vw;
+            color: #f8f9fa;
+            font-size: 1.6rem;
+            word-spacing: 5px;
+            letter-spacing: 6.5px;
+            text-align: left;
+            font-weight: bold;
+            border-top: solid 3px #100a6c;
+            text-shadow: 0px 0px 2px #100a6c;
+            padding: 1rem;
+          }
+          .seccionPrincipal__articuloHistoria--paragraph {
+            color: $text-color-complement;  
+            font-size: $parrafo-font-size - 0.5rem;
+            text-align: justify;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            margin: -1rem 5% 2rem 5%;
+          }
+        }
+        .seccionPrincipal__carrousel {
+display: none;
+        }
+      }
+      section.testimonials {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        background-image: linear-gradient(transparent 68%, rgba(0, 0, 0, 0.4));
+        .container {
+          h2 {
+              font-size: $title-font-size - 1.2rem;
+            margin: 1% !important;
+            text-shadow: $shadows;
+            text-align: center;
+          }
+          p {
+            font-size: $parrafo-font-size - 0.5rem;
+            text-align: justify;
+            color: $text-color;
+            padding: 2%;
+          }
+          .testimonial__block {
+              justify-content: center;
+            .testimonial__block--col {
+              .testimonial-item {
+                img {
+                  width: 15rem;
+                  height: 15rem;
+                }
+                p{
+                    font-size: $parrafo-font-size - 0.4rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}

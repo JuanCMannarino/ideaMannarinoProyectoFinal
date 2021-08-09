@@ -1,0 +1,177 @@
+$title-font-size: 3.2rem;
+$parrafo-font-size: 1.4rem;
+$background-school: #dad6d6;
+$body-color: #f8f9fa;
+$shadows: 0px 0px 2px rgb(16, 10, 108);
+$colorSegundo: rgb(16, 10, 108);
+$text-color: rgba(0, 0, 0, 0.5);
+$text-color-complement: #f8f9fa;
+
+
+@import "mediaIndex";
+@import "estilosFooter";
+@import "estilosHeaderCop";
+
+@media only screen and (min-width: 901px) {
+  body {
+    background-color: $body-color;
+    font-family: "Poppins", "Roboto", sans-serif;
+    .seccionPrincipal {
+      img.imgLarga {
+        width: 100%;
+        height: auto;
+        border-bottom: solid 3px rgb(16,10,108);
+      }
+      div.liga {
+        font-style: italic;
+        h1.seccionPrincipal__liga--titulo{
+          width: 100vw;
+          margin-top: -5rem;
+          color: #f8f9fa;
+          font-size: 3.2rem;
+          word-spacing: -4px;
+          letter-spacing: 10px;
+          text-align: center;
+        }
+        p {
+          width: 80vw;
+          border-bottom-style: solid;
+          border-bottom-width: 3px;
+          border-bottom-color: lightcyan;
+          margin-top: -10.5rem;
+          padding-left: 9rem;
+          padding-bottom: 0rem;
+          color: white;
+          font-size: $parrafo-font-size;
+          word-spacing: 5px;
+          letter-spacing: 9px;
+          text-align: justify;
+        }
+      }
+
+      .articulo__escuela {
+        background-image: linear-gradient(transparent 45%, $background-school);
+        div.escuela--texto {
+          margin: 0%;
+          h2 {
+            margin-top: 3.5rem;
+            padding-left: 4.5rem;
+            padding-bottom: 11rem;
+            font-size: 3.2rem;
+            word-spacing: 0px;
+            letter-spacing: 8px;
+            text-align: left;
+            text-shadow: $shadows;
+          }
+          p.Ppal {
+            width: 98vw;
+            border-bottom-style: solid;
+            border-bottom-width: 3px;
+            border-bottom-color: #100a6c;
+            margin-top: -10.5rem;
+            margin-bottom: 1%;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 1.4rem;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+            text-align: justify;
+            padding-bottom: 3%;
+          }
+        }
+      }
+    }
+    .seccionEscuela {
+      padding: 2% 2% 2% 0%;
+      background-color: #dad6d6;
+      margin-bottom: -3%;
+      .seccionEscuela__sub {
+        background-color: #dad6d6;
+
+        .seccionEscuela__col {
+          display: flex;
+          border-right: solid 3px $colorSegundo;
+          margin: 5% -1% 5% 2%;
+          .seccionEscuela__col--span {
+            margin: -5% 0% 0% 10%;
+            font-size: 22px;
+            text-align: start;
+            width: 100%;
+          }
+          .seccionEscuela__col--img {
+            width: 5rem;
+            height: 5rem;
+          }
+        }
+      }
+      a.botonReg {
+        border: solid 1px $colorSegundo;
+        border-radius: 8%;
+        text-decoration: none;
+        padding: 2px 12px 2px 12px;
+        font-size: x-large;
+        margin-left: 46.5%;
+        color: $colorSegundo;
+        transition: color, 1s;
+
+      }
+      a.botonReg:hover {
+        border-radius: 8%;
+        text-decoration: none;
+        padding: 8px 20px 8px 20px;
+        font-size: x-large;
+        margin-right: -50%;
+        background-color: $colorSegundo;
+        color: $text-color-complement;
+        transition: color, 1s;
+      }
+      div.banner {
+        background-color: $colorSegundo;
+        width: 100vw;
+        height: 20rem;
+        text-align: center;
+        margin: 2% 0% 2% -2%;
+        .showcase-text {
+          color: $body-color;
+          padding: 3%;
+          .lead{
+            padding: 1%;
+          }
+        }
+      }
+    }
+    .seccionClientes {
+      background-image: linear-gradient(
+        to top,
+        transparent 40%,
+        $background-school
+      );
+
+      .articuloClientes {
+        flex-direction: column;
+        .articuloClientes--title {
+          margin: 3% 0% 0% 0%;
+          padding: 1rem;
+          font-size: $title-font-size - 1rem;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 9px;
+          text-shadow: $shadows;
+        }
+        div.articuloClientes__divisor {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-left: -3%;
+          margin-bottom: 2%;
+          img.articuloClientes__divisor--img {
+            justify-content: stretch;
+            width: 8%;
+            height: 8%;
+          }
+        }
+      }
+    }
+  }
+}

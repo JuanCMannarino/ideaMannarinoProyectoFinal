@@ -1,0 +1,407 @@
+$title-font-size: 3.2rem;
+$parrafo-font-size: 1.4rem;
+$background-school: #dad6d6;
+$body-color: #f8f9fa;
+$shadows: 0px 0px 2px rgb(16, 10, 108);
+$colorSegundo: rgb(16, 10, 108);
+$text-color: rgba(0, 0, 0, 0.5);
+$text-color-complement: #f8f9fa;
+
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+  body {
+    .seccionPrincipal {
+      img.imgLarga {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        width: 100%;
+        height: auto;
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+        border-bottom-color: $colorSegundo;
+      }
+      div.liga {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-bottom: 5%;
+        margin-top: -21%;
+        padding-left: 3%;
+        h1 {
+          width: 100vw;
+          margin-top: 3.5rem;
+          padding-left: 3.3rem;
+          color: #f8f9fa;
+          font-size: 2.3rem;
+          word-spacing: 5px;
+          letter-spacing: 5px;
+          text-align: center;
+        }
+        p.Ppal {
+          color: $text-color-complement;
+          font-size: $parrafo-font-size - 0.2rem;
+          word-spacing: 2px;
+          letter-spacing: 1px;
+          text-align: justify;
+          padding-right: 5%;
+          width: 100vw;
+          border: none;
+        }
+      }
+      .articulo__escuela {
+        margin-top: 2%;
+        div.escuela--texto {
+          h2.titulos {
+            word-spacing: 5px;
+            letter-spacing: 7px;
+            text-align: center;
+            text-shadow: $shadows;
+            color: $text-color;
+          }
+          p.Ppal {
+            padding: 5%;
+            margin-top: -5%;
+            font-size: $parrafo-font-size - 0.2rem;
+            color: rgba(0, 0, 0, 0.6);
+            word-spacing: 5px;
+            letter-spacing: 2px;
+            text-align: justify;
+            color: $text-color;
+          }
+        }
+      }
+    }
+    div.seccionEscuela {
+      margin-bottom: 5px;
+      padding-bottom: 20px;
+      div.seccionEscuela__sub {
+        margin-bottom: -1%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: baseline !important;
+        div.seccionEscuela__col {
+          display: flex;
+          border-right: none;
+          width: 96vw;
+          .seccionEscuela__col--img {
+            width: 30%;
+            height: 30%;
+          }
+          .seccionEscuela__col--span {
+            font-size: 1rem;
+            border-top: solid 3px $colorSegundo;
+            text-align: start;
+            padding: 2%;
+            margin-left: 2%;
+          }
+        }
+      }
+      a.botonReg {
+        border: solid 1px $colorSegundo;
+        border-radius: 8%;
+        text-decoration: none;
+        padding: 2px 12px 2px 12px;
+        font-size: 1rem;
+        margin-left: 41.5%;
+        margin-top: 5%;
+        color: $colorSegundo;
+        display: inline-block;
+        margin-bottom: 3%;
+        transition: color, 1s;
+      }
+      a.botonReg:hover {
+        border-radius: 8%;
+        text-decoration: none;
+        padding: 8px 20px 8px 20px;
+        font-size: 1.1rem;
+        margin-left: 41.5%;
+        background-color: $colorSegundo;
+        color: $background-school;
+        transition: color, 1s;
+      }
+      div.banner {
+        background-color: $colorSegundo;
+        width: 100vw;
+        height: 10rem;
+        text-align: center;
+        margin: 2% 0% 2% -2%;
+        .showcase-img {
+          display: none;
+        }
+        .showcase-text {
+          color: $body-color;
+          width: 50vw;
+          margin-left: 25%;
+        }
+      }
+    }
+    .seccionClientes {
+      background-image: linear-gradient(
+        to top,
+        transparent 40%,
+        $background-school
+      );
+      margin-bottom: 10%;
+
+      .articuloClientes {
+        margin-top: -1%;
+        .articuloClientes--title {
+          margin: 3% 0% 0% 0%;
+          padding: 1rem;
+          font-size: $title-font-size - 1rem;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 9px;
+          text-shadow: $shadows;
+        }
+        .articuloClientes__divisor {
+          display: flex;
+          margin-left: 0%;
+          justify-content: space-around;
+          .articuloClientes__divisor--img {
+            justify-content: stretch;
+            width: 15%;
+            height: auto;
+            margin-left: 1rem;
+            margin-right: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 411px) {
+  body {
+    .seccionPrincipal {
+      img.imgLarga {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        width: 100%;
+        height: auto;
+        border-bottom: solid 3px $colorSegundo;
+      }
+      div.liga {
+        margin-bottom: 5%;
+        h1.seccionPrincipal__liga--titulo {
+          width: 100vw;
+          margin-top: -2.5rem;
+          padding-left: 1rem;
+          color: #f8f9fa;
+          font-size: 1.5rem;
+          word-spacing: 3px;
+          letter-spacing: 5px;
+          text-align: center;
+        }
+        p.Ppal {
+          color: rgba(0, 0, 0, 0.6);
+          border-bottom-style: solid;
+          border-bottom-width: 3px;
+          border-bottom-color: $colorSegundo;
+          font-size: 1rem;
+          word-spacing: 2px;
+          letter-spacing: 1px;
+          text-align: justify;
+          padding: 2%;
+          width: 100vw;
+        }
+      }
+      article.articulo__escuela {
+        div.escuela--texto {
+          h2.titulos {
+            word-spacing: 10px;
+            letter-spacing: 7px;
+            text-align: center;
+            text-shadow: $shadows;
+          }
+          p.Ppal {
+            padding: 2%;
+            font-size: $parrafo-font-size - 0.2rem;
+            word-spacing: 0;
+            letter-spacing: 2px;
+            text-align: justify;
+            color: rgba(0, 0, 0, 0.6);
+
+          }
+        }
+      }
+    }
+    div.seccionEscuela {
+      margin-bottom: 5px;
+      padding-bottom: 20px;
+      div.seccionEscuela__sub {
+        margin-bottom: -1%;
+        flex-direction: column;
+        margin-top: 5%;
+        div.seccionEscuela__col {
+          border-right: none;
+          width: 96vw;
+          .seccionEscuela__col--img {
+            width: 5rem;
+            height: 5rem;
+            margin: -2% -15% 8% 4%;
+          }
+          .seccionEscuela__col--span {
+            margin: -15% 15% 9% 30%;
+            font-size: 1rem;
+            border-top: solid 3px $colorSegundo;
+          }
+        }
+      }
+      a.botonReg {
+        border: solid 1px $colorSegundo;
+        border-radius: 8%;
+        text-decoration: none;
+        padding: 2px 12px 2px 12px;
+        font-size: 1rem;
+        margin-left: 41.5%;
+        color: $colorSegundo;
+        transition: color, 1s;
+      }
+      a.botonReg:hover {
+        border-radius: 8%;
+        text-decoration: none;
+        padding: 8px 20px 8px 20px;
+        font-size: 1.1rem;
+        margin-left: 41.5%;
+        background-color: $colorSegundo;
+        color: $background-school;
+        transition: color, 1s;
+      }
+      div.banner {
+        background-color: $colorSegundo;
+        width: 100vw;
+        height: 10rem;
+        text-align: center;
+        margin: 2% 0% 2% -2%;
+        .showcase-img {
+          display: none;
+        }
+        .showcase-text {
+          font-style: italic;
+          color: $body-color;
+        }
+      }
+    }
+    .seccionClientes {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  body {
+    .seccionPrincipal {
+      img.imgLarga {
+        margin-top: 0%;
+        border-bottom: solid 3px $colorSegundo;
+      }
+      div.liga {
+        h1.seccionPrincipal__liga--titulo{
+          width: 100vw;
+          margin-top: -3rem;
+          padding-left: 2%;
+          color: $text-color-complement;
+          font-size: $title-font-size - 2rem;
+          word-spacing: 5px;
+          letter-spacing: 5px;
+          text-align: center;
+        }
+        p.Ppal {
+          color: rgba(0, 0, 0, 0.6);
+          border-bottom-style: solid;
+          border-bottom-width: 3px;
+          border-bottom-color: $colorSegundo;
+          font-size: 1rem;
+          word-spacing: 2px;
+          letter-spacing: 1px;
+          text-align: justify;
+          padding: 2% 8% 0% 1%;
+        }
+      }
+      article.articulo__escuela {
+        div.escuela--texto {
+          width: 95vw;
+          margin-left: 2%;
+          margin-top: 3%;
+          h2.titulos {
+            font-size: $parrafo-font-size;
+            word-spacing: 10px;
+            letter-spacing: 7px;
+            text-align: left;
+            text-shadow: $shadows;
+          }
+          p.Ppal {
+            color: rgba(0, 0, 0, 0.6);
+            padding-left: 2%;
+            font-size: 0.8rem;
+            word-spacing: 0;
+            letter-spacing: 2px;
+            text-align: justify;
+          }
+        }
+      }
+    }
+    div.seccionEscuela {
+      margin-bottom: 0;
+      div.seccionEscuela__sub {
+        margin-bottom: -1%;
+        flex-direction: column;
+        margin-top: 5%;
+        div.seccionEscuela__col {
+          border-right: none;
+          width: 96vw;
+
+          .seccionEscuela__col--img {
+            width: 2rem;
+            height: 2rem;
+            margin: -5% -15% 0% 2%;
+          }
+          .seccionEscuela__col--span {
+            margin: -5% 15% 10% 25%;
+            font-size: 1rem;
+            border-top: solid 3px $colorSegundo;
+          }
+        }
+      }
+      a.botonReg {
+        border: solid 1px $colorSegundo;
+        border-radius: 8%;
+        text-decoration: none;
+        padding: 2px 12px 2px 12px;
+        font-size: 1rem;
+        margin-left: 41.5%;
+        color: $colorSegundo;
+        transition: color, 1s;
+      }
+      a.botonReg:hover {
+        border-radius: 8%;
+        text-decoration: none;
+        padding: 8px 20px 8px 20px;
+        font-size: 1.1rem;
+        margin-left: 41.5%;
+        background-color: $colorSegundo;
+        color: $background-school;
+        transition: color, 1s;
+      }
+      div.banner {
+        background-color: $colorSegundo;
+        width: 100vw;
+        height: 10rem;
+        text-align: center;
+        margin: 2% 0% 2% -5%;
+        .showcase-img {
+          display: none;
+        }
+        .showcase-text {
+          padding: 2%;
+          font-size:0.8rem;
+          color: $body-color;
+        }
+      }
+    }
+    .seccionClientes {
+      display: none;
+    }
+  }
+}
