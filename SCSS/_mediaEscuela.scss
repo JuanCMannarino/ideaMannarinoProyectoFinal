@@ -7,7 +7,7 @@ $colorSegundo: rgb(16, 10, 108);
 $text-color: rgba(0, 0, 0, 0.5);
 $text-color-complement: #f8f9fa;
 
-body{
+body {
   font-family: "Poppins", "Roboto", sans-serif;
 }
 
@@ -36,22 +36,20 @@ body{
         $background-school
       );
       h1 {
-        width: 50vw;
-        color: black;
-        font-size: 2.1rem;
+        width: 95vw;
         word-spacing: 5px;
         letter-spacing: 6.5px;
-        text-align: left;
+        text-align: center;
         margin-left: 2rem;
         font-weight: bold;
-        padding: 2rem;
+        padding: 1rem;
         border-top: solid 3px $colorSegundo;
         text-shadow: $shadows;
       }
       p {
         align-items: center;
         font-size: $parrafo-font-size - 0.15rem;
-        text-align: left;
+        text-align: justify;
         margin: -1rem 10% 2rem 10%;
       }
     }
@@ -80,6 +78,22 @@ body{
         padding: 2rem;
         border-top: solid 1px $colorSegundo;
         text-shadow: $shadows;
+      }
+      .articuloCapacitacion__div {
+        padding: 0% 3% 0% 10%;
+
+        .articuloCapacitacion__div--lista {
+          list-style-type: none;
+          padding: 2% 0% 0% 4%;
+          font-size: 22px;
+          color: rgba(0, 0, 0, 0.6);
+          letter-spacing: 2px;
+        }
+        .articuloCapacitacion--lista--sub {
+          list-style-type: none;
+          font-size: large;
+          letter-spacing: 2px;
+        }
       }
     }
   }
@@ -150,6 +164,22 @@ body{
       div.carousel {
         display: none;
       }
+      .articuloCapacitacion__div {
+        padding: 0% 3% 0% 10%;
+
+        .articuloCapacitacion__div--lista {
+          list-style-type: none;
+          padding: 2% 0% 0% 4%;
+          font-size: 22px;
+          color: rgba(0, 0, 0, 0.6);
+          letter-spacing: 2px;
+        }
+        .articuloCapacitacion--lista--sub {
+          list-style-type: none;
+          font-size: large;
+          letter-spacing: 2px;
+        }
+      }
     }
   }
 }
@@ -173,9 +203,9 @@ body{
       border-top-width: 1rem;
       border-top-color: lightcyan;
       h1 {
-        width: 50vw;
+        width: 95vw;
         color: $text-color;
-        font-size: $text-color - 1.6rem;
+        font-size: $title-font-size - 1.6rem;
         word-spacing: 5px;
         letter-spacing: 6.5px;
         text-align: left;
@@ -191,7 +221,6 @@ body{
         text-align: justify;
         margin: -1rem 7% 2rem 7%;
       }
-
     }
     .articuloCapacitacion {
       display: flex;
@@ -208,20 +237,40 @@ body{
         padding: 2%;
       }
       h2.articuloCapacitacion__titulo {
-        width: 100vw;
         color: $text-color;
-        font-size: 1.1rem;
+        margin-left: 1%;
+        font-weight: bold;
+        width: 95vw;
+        font-size: 1.2rem;
         word-spacing: 5px;
         letter-spacing: 1.5px;
         text-align: left;
-        margin-left: 1%;
-        font-weight: bold;
-        padding: 1rem;
+        padding: 1rem 0% 0% 1rem;
         border-top: solid 1px $colorSegundo;
         text-shadow: $shadows;
       }
       div.carousel {
         display: none;
+      }
+      .articuloCapacitacion__div {
+        padding: 0% 3% 0% 10%;
+
+        .articuloCapacitacion__div--lista {
+          list-style-type: none;
+          padding: 2% 0% 0% 4%;
+          font-size: 1.1rem;
+          color: rgba(0, 0, 0, 0.6);
+          letter-spacing: 2px;
+          border-bottom: solid 2px;
+          width: 40vw;
+        }
+        .articuloCapacitacion--lista--sub {
+          list-style-type: none;
+          font-size: 1rem;
+          letter-spacing: 2px;
+          margin-left: -10%;
+          margin-bottom: 10%;
+        }
       }
     }
   }

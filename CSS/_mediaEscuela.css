@@ -32,15 +32,13 @@ body {
     background-image: linear-gradient(to top, transparent 45%, #dad6d6);
   }
   .seccionPrincipal .articuloEscuela h1 {
-    width: 50vw;
-    color: black;
-    font-size: 2.1rem;
+    width: 95vw;
     word-spacing: 5px;
     letter-spacing: 6.5px;
-    text-align: left;
+    text-align: center;
     margin-left: 2rem;
     font-weight: bold;
-    padding: 2rem;
+    padding: 1rem;
     border-top: solid 3px #100a6c;
     text-shadow: 0px 0px 2px #100a6c;
   }
@@ -49,7 +47,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     font-size: 1.25rem;
-    text-align: left;
+    text-align: justify;
     margin: -1rem 10% 2rem 10%;
   }
   .seccionPrincipal .articuloCapacitacion {
@@ -87,6 +85,21 @@ body {
     padding: 2rem;
     border-top: solid 1px #100a6c;
     text-shadow: 0px 0px 2px #100a6c;
+  }
+  .seccionPrincipal .articuloCapacitacion .articuloCapacitacion__div {
+    padding: 0% 3% 0% 10%;
+  }
+  .seccionPrincipal .articuloCapacitacion .articuloCapacitacion__div .articuloCapacitacion__div--lista {
+    list-style-type: none;
+    padding: 2% 0% 0% 4%;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 2px;
+  }
+  .seccionPrincipal .articuloCapacitacion .articuloCapacitacion__div .articuloCapacitacion--lista--sub {
+    list-style-type: none;
+    font-size: large;
+    letter-spacing: 2px;
   }
 }
 
@@ -174,6 +187,21 @@ body {
   .seccionPrincipal .articuloCapacitacion div.carousel {
     display: none;
   }
+  .seccionPrincipal .articuloCapacitacion .articuloCapacitacion__div {
+    padding: 0% 3% 0% 10%;
+  }
+  .seccionPrincipal .articuloCapacitacion .articuloCapacitacion__div .articuloCapacitacion__div--lista {
+    list-style-type: none;
+    padding: 2% 0% 0% 4%;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 2px;
+  }
+  .seccionPrincipal .articuloCapacitacion .articuloCapacitacion__div .articuloCapacitacion--lista--sub {
+    list-style-type: none;
+    font-size: large;
+    letter-spacing: 2px;
+  }
 }
 
 @media only screen and (max-width: 400px) and (min-width: 151px) {
@@ -204,9 +232,9 @@ body {
     border-top-color: lightcyan;
   }
   .seccionPrincipal .articuloEscuela h1 {
-    width: 50vw;
+    width: 95vw;
     color: rgba(0, 0, 0, 0.5);
-    font-size: rgba(0, 0, 0, 0.5);
+    font-size: 1.6rem;
     word-spacing: 5px;
     letter-spacing: 6.5px;
     text-align: left;
@@ -249,20 +277,39 @@ body {
     padding: 2%;
   }
   .seccionPrincipal .articuloCapacitacion h2.articuloCapacitacion__titulo {
-    width: 100vw;
     color: rgba(0, 0, 0, 0.5);
-    font-size: 1.1rem;
+    margin-left: 1%;
+    font-weight: bold;
+    width: 95vw;
+    font-size: 1.2rem;
     word-spacing: 5px;
     letter-spacing: 1.5px;
     text-align: left;
-    margin-left: 1%;
-    font-weight: bold;
-    padding: 1rem;
+    padding: 1rem 0% 0% 1rem;
     border-top: solid 1px #100a6c;
     text-shadow: 0px 0px 2px #100a6c;
   }
   .seccionPrincipal .articuloCapacitacion div.carousel {
     display: none;
+  }
+  .seccionPrincipal .articuloCapacitacion .articuloCapacitacion__div {
+    padding: 0% 3% 0% 10%;
+  }
+  .seccionPrincipal .articuloCapacitacion .articuloCapacitacion__div .articuloCapacitacion__div--lista {
+    list-style-type: none;
+    padding: 2% 0% 0% 4%;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 2px;
+    border-bottom: solid 2px;
+    width: 40vw;
+  }
+  .seccionPrincipal .articuloCapacitacion .articuloCapacitacion__div .articuloCapacitacion--lista--sub {
+    list-style-type: none;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-left: -10%;
+    margin-bottom: 10%;
   }
 }
 /*# sourceMappingURL=mediaEscuela.css.map */

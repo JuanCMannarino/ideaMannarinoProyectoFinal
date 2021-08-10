@@ -553,13 +553,14 @@ body section.testimonials .container .testimonial__block .testimonial__block--co
     border-bottom: solid 3px #f8f9fa;
   }
   body section.seccionPrincipal .seccionPrincipal__articuloHistoria .seccionPrincipal__articuloHistoria--title {
-    width: 85vw;
-    color: #f8f9fa;
-    font-size: 2.1rem;
     word-spacing: 5px;
     letter-spacing: 6.5px;
+    width: 90vw;
+    color: #f8f9fa;
+    font-size: 2.5rem;
     text-align: center;
     font-weight: bold;
+    margin-left: 1%;
   }
   body section.seccionPrincipal .seccionPrincipal__articuloHistoria .seccionPrincipal__articuloHistoria--paragraph {
     color: #f8f9fa;
