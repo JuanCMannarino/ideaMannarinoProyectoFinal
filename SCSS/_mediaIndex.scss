@@ -29,7 +29,7 @@ $text-color-complement: #f8f9fa;
         padding-left: 3%;
         h1 {
           width: 100vw;
-          margin-top: 3.5rem;
+          margin-top: 2.5rem;
           padding-left: 3.3rem;
           color: #f8f9fa;
           font-size: 2.3rem;
@@ -38,6 +38,7 @@ $text-color-complement: #f8f9fa;
           text-align: center;
         }
         p.Ppal {
+          font-family: "Quicksand", "roboto", sans-serif;
           color: $text-color-complement;
           font-size: $parrafo-font-size - 0.2rem;
           word-spacing: 2px;
@@ -59,6 +60,7 @@ $text-color-complement: #f8f9fa;
             color: $text-color;
           }
           p.Ppal {
+            font-family: "Quicksand", "roboto", sans-serif;
             padding: 5%;
             margin-top: -5%;
             font-size: $parrafo-font-size - 0.2rem;
@@ -194,6 +196,7 @@ $text-color-complement: #f8f9fa;
           text-align: center;
         }
         p.Ppal {
+          font-family: "Quicksand", "roboto", sans-serif;
           color: rgba(0, 0, 0, 0.6);
           border-bottom-style: solid;
           border-bottom-width: 3px;
@@ -215,6 +218,7 @@ $text-color-complement: #f8f9fa;
             text-shadow: $shadows;
           }
           p.Ppal {
+            font-family: "Quicksand", "roboto", sans-serif;
             padding: 2%;
             font-size: $parrafo-font-size - 0.2rem;
             word-spacing: 0;
@@ -308,6 +312,7 @@ $text-color-complement: #f8f9fa;
           text-align: center;
         }
         p.Ppal {
+          font-family: "Quicksand", "roboto", sans-serif;
           color: rgba(0, 0, 0, 0.6);
           border-bottom-style: solid;
           border-bottom-width: 3px;
@@ -332,6 +337,7 @@ $text-color-complement: #f8f9fa;
             text-shadow: $shadows;
           }
           p.Ppal {
+            font-family: "Quicksand", "roboto", sans-serif;
             color: rgba(0, 0, 0, 0.6);
             padding-left: 2%;
             font-size: 0.8rem;

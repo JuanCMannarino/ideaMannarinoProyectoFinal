@@ -8,6 +8,7 @@ $text-color: rgba(0, 0, 0, 0.5);
 $text-color-complement: #f8f9fa;
 
 
+
 @import "mediaIndex";
 @import "estilosFooter";
 @import "estilosHeaderCop";
@@ -26,7 +27,7 @@ $text-color-complement: #f8f9fa;
         font-style: italic;
         h1.seccionPrincipal__liga--titulo{
           width: 100vw;
-          margin-top: -5rem;
+          margin-top: -8rem;
           color: #f8f9fa;
           font-size: 3.2rem;
           word-spacing: -4px;
@@ -34,6 +35,7 @@ $text-color-complement: #f8f9fa;
           text-align: center;
         }
         p {
+          font-family: "Quicksand", "roboto", sans-serif;
           width: 80vw;
           border-bottom-style: solid;
           border-bottom-width: 3px;
@@ -48,7 +50,6 @@ $text-color-complement: #f8f9fa;
           text-align: justify;
         }
       }
-
       .articulo__escuela {
         background-image: linear-gradient(transparent 45%, $background-school);
         div.escuela--texto {
@@ -64,20 +65,20 @@ $text-color-complement: #f8f9fa;
             text-shadow: $shadows;
           }
           p.Ppal {
-            width: 98vw;
+            font-family: "Quicksand", "roboto", sans-serif;
+            width: 70vw;
             border-bottom-style: solid;
             border-bottom-width: 3px;
             border-bottom-color: #100a6c;
             margin-top: -10.5rem;
             margin-bottom: 1%;
-            padding-left: 3rem;
-            padding-right: 3rem;
             color: rgba(0, 0, 0, 0.6);
             font-size: 1.4rem;
             word-spacing: 5px;
             letter-spacing: 2px;
             text-align: justify;
             padding-bottom: 3%;
+            margin-left: 15vw;
           }
         }
       }
@@ -147,7 +148,6 @@ $text-color-complement: #f8f9fa;
         transparent 40%,
         $background-school
       );
-
       .articuloClientes {
         flex-direction: column;
         .articuloClientes--title {

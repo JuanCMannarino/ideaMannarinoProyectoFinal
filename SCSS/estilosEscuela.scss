@@ -50,6 +50,7 @@ body {
         text-shadow: $shadows;
       }
       p {
+        font-family: "Quicksand", "roboto", sans-serif;
         align-items: center;
         font-size: $parrafo-font-size;
         text-align: justify;
@@ -73,6 +74,7 @@ body {
       justify-content: stretch;
       background-image: linear-gradient(transparent 45%, #dad6d6);
       p.articuloCapacitacion__parrafo {
+        font-family: "Quicksand", "roboto", sans-serif;
         text-align: justify;
         width: 40vw;
         align-self: start;
@@ -104,7 +106,7 @@ body {
           letter-spacing: 2px;
         }
         .articuloCapacitacion--lista--sub {
-          list-style-type: none;
+          // list-style-type: none;
           font-size: large;
           letter-spacing: 2px;
         }
