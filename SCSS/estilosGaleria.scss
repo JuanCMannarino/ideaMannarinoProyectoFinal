@@ -20,10 +20,7 @@ $text-color-complement: #f8f9fa;
     font-family: "Poppins", "Roboto", sans-serif;
     .seccionPrincipal {
       background-image: linear-gradient(
-        to bottom,
-        $background-school 25%,
-        $colorSegundo
-      );
+        to bottom, transparent 12%, $background-school);
       div.container {
         max-width: 1210px !important;
         .row {

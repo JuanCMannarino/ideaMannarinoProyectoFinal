@@ -657,8 +657,8 @@
     font-family: "Poppins", "Roboto", sans-serif;
   }
   body .seccionPrincipal {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(45%, transparent), to(#dad6d6));
-    background-image: linear-gradient(to bottom, transparent 45%, #dad6d6);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(12%, transparent), to(#dad6d6));
+    background-image: linear-gradient(to bottom, transparent 12%, #dad6d6);
   }
   body .seccionPrincipal div.container {
     max-width: 1210px !important;
