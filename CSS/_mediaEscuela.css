@@ -26,7 +26,7 @@ body {
             justify-content: stretch;
     background-color: #f8f9fa;
     border-top-style: solid;
-    border-top-width: 1rem;
+    border-top-width: 3px;
     border-top-color: lightcyan;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(45%, transparent), to(#dad6d6));
     background-image: linear-gradient(to top, transparent 45%, #dad6d6);
@@ -129,7 +129,7 @@ body {
             justify-content: stretch;
     background-color: #f8f9fa;
     border-top-style: solid;
-    border-top-width: 1rem;
+    border-top-width: 3px;
     border-top-color: lightcyan;
   }
   .seccionPrincipal .articuloEscuela h1 {
@@ -232,7 +232,7 @@ body {
             justify-content: stretch;
     background-color: #f8f9fa;
     border-top-style: solid;
-    border-top-width: 1rem;
+    border-top-width: 3px;
     border-top-color: lightcyan;
   }
   .seccionPrincipal .articuloEscuela h1 {

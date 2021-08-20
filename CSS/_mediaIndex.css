@@ -183,14 +183,15 @@
     margin-bottom: 0%;
     width: 100%;
     height: auto;
-    border-bottom: solid 3px #100a6c;
+    border-bottom: solid 3px lightcyan;
   }
   body .seccionPrincipal div.liga {
     margin-bottom: 5%;
+    border-top: solid 3px #100a6c;
   }
   body .seccionPrincipal div.liga h1.seccionPrincipal__liga--titulo {
     width: 100vw;
-    margin-top: -3.5rem;
+    margin-top: -3.8rem;
     padding-left: 1rem;
     color: #f8f9fa;
     font-size: 1.5rem;
@@ -296,7 +297,10 @@
 @media only screen and (max-width: 410px) {
   body .seccionPrincipal img.imgLarga {
     margin-top: 0%;
-    border-bottom: solid 3px #100a6c;
+    border-bottom: solid 3px lightcyan;
+  }
+  body .seccionPrincipal div.liga {
+    border-top: solid 3px #100a6c;
   }
   body .seccionPrincipal div.liga h1.seccionPrincipal__liga--titulo {
     width: 100vw;
