@@ -5,7 +5,7 @@
         "estilosEscuela.scss",
         "_estilosHeaderCop.scss",
         "_estilosFooter.scss",
-        "mediaEscuela.scss"
+        "_mediaEscuela.scss"
     ],
     "names": [],
     "file": "estilosEscuela.css"

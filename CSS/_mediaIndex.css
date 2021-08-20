@@ -190,7 +190,7 @@
   }
   body .seccionPrincipal div.liga h1.seccionPrincipal__liga--titulo {
     width: 100vw;
-    margin-top: -2.5rem;
+    margin-top: -3.5rem;
     padding-left: 1rem;
     color: #f8f9fa;
     font-size: 1.5rem;
@@ -219,7 +219,7 @@
   }
   body .seccionPrincipal article.articulo__escuela div.escuela--texto p.Ppal {
     font-family: "Quicksand", "roboto", sans-serif;
-    padding: 2%;
+    padding: 3%;
     font-size: 1.2rem;
     word-spacing: 0;
     letter-spacing: 2px;
